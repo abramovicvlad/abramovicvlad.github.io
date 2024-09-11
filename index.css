@@ -44,13 +44,13 @@ button {
 }
 .container {
    transform: scale(0.7);
-    transform-origin: top left; /* Устанавливаем точку отсчета для масштабирования */
-    width: 200%; /* Увеличиваем ширину, чтобы избежать обрезки */
+    transform-origin: top right; /* Устанавливаем точку отсчета для масштабирования */
+    width: 100%; /* Увеличиваем ширину, чтобы избежать обрезки */
   position: absolute;
   width: 1300px;
   height: 4192.72px;
   top: 0;
-  left: 560px;
+  left: 150px;
   z-index: 152;
   overflow: hidden;
 }
