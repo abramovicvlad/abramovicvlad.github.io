@@ -36,7 +36,7 @@ button {
 }
 .background {
   position: absolute;
-  max-width: 1920px;
+  max-width: 1920px;  
   top: 0;
   right: 0;
   left: 0;
@@ -50,10 +50,23 @@ button {
   width: 1300px;
   height: 4192.72px;
   top: 0;
-  left: 150px;
+  left: 170px;
   z-index: 152;
   overflow: hidden;
 }
+
+.overlay-shadow {
+  position: absolute;
+  width: 500px;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0);
+  z-index: 2;
+  border-radius: 10px;
+  box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.05);
+}
+
+
 .container-1 {
   position: relative;
   width: 1292px;
@@ -636,18 +649,7 @@ button {
   opacity: 1; /* Показываем текст при наведении */
 }
 
-.overlay-shadow {
-  position: absolute;
-  width: 500px;
-  top: 0;
-  bottom: 0;
-  left: 58%;
-  background: rgba(255, 255, 255, 0);
-  transform: translate(-180%, 0);
-  z-index: 2;
-  border-radius: 10px;
-  box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.05);
-}
+
 .container-b {
   position: relative;
   width: 380px;
